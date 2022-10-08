@@ -12,11 +12,22 @@ $ ./install.sh
 
 ### Nvm
 
-Running either of the above commands downloads a script and runs it. The script clones the nvm repository to ~/.nvm, and attempts to add the source lines from the snippet below to the correct profile file (~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc).
+After installation setup copy below the command
 
 ```sh
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+```sh
+$ gedit ~/.bashrc
+paste in last line
+
+$ nvm --version # 0.39.1
+$ nvm install --lts
+$ nvm use --lts
+$ node -v # v16.17.1
+$ npm -v # 8.19.2
 ```
 
 ### Package Lists
