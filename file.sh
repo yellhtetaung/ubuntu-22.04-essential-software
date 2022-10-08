@@ -1,5 +1,5 @@
 sudo apt update && sudo apt upgrade
-sudo apt install -y curl vlc google-chrome-stable gcc python2 python-is-python3 python3-pip telegram-desktop gimp gnome-tweaks gnome-shell-extensions vim htop neofetch
+sudo apt install -y curl git vlc google-chrome-stable gcc python2 python-is-python3 python3-pip telegram-desktop gimp gnome-tweaks gnome-shell-extensions vim htop neofetch
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:gerardpuig/ppa
 sudo apt update
@@ -18,3 +18,5 @@ sudo apt install -f
 sudo apt update && sudo apt upgrade
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 vim ~/.bashrc
+nvm install node
+nvm use --lts
