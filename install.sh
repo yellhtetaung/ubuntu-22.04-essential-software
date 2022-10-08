@@ -13,10 +13,9 @@ wget https://az764295.vo.msecnd.net/stable/64bbfbf67ada9953918d72e1df2f4d8e537d3
 wget https://dl.discordapp.net/apps/linux/0.0.20/discord-0.0.20.deb -P ~/Downloads/Software
 wget https://zoom.us/client/5.12.0.4682/zoom_amd64.deb -P ~/Downloads/Software
 wget https://github.com/agalwood/Motrix/releases/download/v1.6.11/Motrix_1.6.11_amd64.deb -P ~/Downloads/Software
-cd ~/Downloads/Software
-sudo dpkg -i *.deb
+sudo dpkg -i ~/Downloads/Software/*.deb
 sudo apt install -f -y
-sudo apt update && sudo apt upgrade -y && sudo apt autoremove
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 sudo apt install apache2
 sudo add-apt-repository ppa:ondrej/php
 sudo apt install php8.1
