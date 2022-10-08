@@ -47,3 +47,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 - Zoom
 - Motrix Download Manager
 - nvm
+- mysql
+- composer
+- apache2
+- php8.1
