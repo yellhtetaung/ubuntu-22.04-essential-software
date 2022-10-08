@@ -1,5 +1,17 @@
 # ubuntu-essential-software
 
+### Installation setup
+
+```sh
+git clone https://yellhtetaung/ubuntu-essential-software.git
+```
+
+```sh
+$ cd ./ubuntu-essential-software
+$ chmod +x install.sh
+$ ./install.sh
+```
+
 ### Nvm
 
 Paste in your terminal when opening vim
