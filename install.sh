@@ -28,4 +28,3 @@ sudo apt install mysql-server php8.1-mysql
 sudo systemctl start mysql.service
 sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-vim ~/.bashrc
