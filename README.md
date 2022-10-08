@@ -21,7 +21,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 ```sh
 $ gedit ~/.bashrc
-paste in last line
+paste command in last line
 
 $ nvm --version # 0.39.1
 $ nvm install --lts
