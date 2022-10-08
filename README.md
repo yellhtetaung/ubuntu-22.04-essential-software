@@ -2,9 +2,7 @@
 
 ### Installation setup
 
-```sh
-git clone https://yellhtetaung/ubuntu-essential-software.git
-```
+Download Zip and Extract
 
 ```sh
 $ cd ./ubuntu-essential-software
