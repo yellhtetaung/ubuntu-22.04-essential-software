@@ -16,6 +16,7 @@ wget https://github.com/agalwood/Motrix/releases/download/v1.6.11/Motrix_1.6.11_
 sudo dpkg -i ~/Downloads/Software/*.deb
 sudo apt install -f -y
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
+rm -rf ~/Downloads/Software
 sudo apt install apache2
 sudo add-apt-repository ppa:ondrej/php
 sudo apt install php8.1
